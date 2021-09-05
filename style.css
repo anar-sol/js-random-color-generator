@@ -30,6 +30,27 @@ body {
     margin: 0 0 1.5rem;
 }
 
+.rgc__values {
+    margin: 0 0 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.rgc__values > * {
+    margin: 0 0 .25rem;
+}
+
+@media (min-width: 28em) {
+    .rgc__values {
+        flex-direction: row;
+    }
+
+    .rgc__values > * {
+        margin: 0 1.5rem 0 0;
+    }
+}
+
 .rcg__btn {
     width: 100%;
     font-family: inherit;
