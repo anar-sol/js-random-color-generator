@@ -27,7 +27,7 @@ function updateColor() {
 
     rcgValueHex.textContent = `#${colorHex.r}${colorHex.g}${colorHex.b}`;
     rcgValueRGB.textContent = `rgb(${colorRGB.r}, ${colorRGB.g}, ${colorRGB.b})`;
-    rcgValueHSL.textContent = `hsl(${colorHSL.h}, ${colorHSL.s}, ${colorHSL.l})`;
+    rcgValueHSL.textContent = `hsl(${colorHSL.h}, ${colorHSL.s}%, ${colorHSL.l}%)`;
 }
 
 window.addEventListener("load", updateColor);
